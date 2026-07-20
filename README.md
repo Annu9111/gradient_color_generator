@@ -137,8 +137,8 @@ This project is licensed under the MIT License.
 
 **Annu Kumari Soni**
 
-- GitHub: https://github.com/your-github-username
-- LinkedIn: https://linkedin.com/in/your-linkedin
+- GitHub: https://github.com/Annu9111
+- LinkedIn: https://www.linkedin.com/in/annu-kumari-soni-7555ab3b2/
 
 ---
 
