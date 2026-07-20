@@ -18,7 +18,7 @@ const hexValue = ()=>{
 const handleButton1 = ()=>{
     rgb1=hexValue();
     btn1.innerText=rgb1;
-    document.body.style.backgroundImage = `linear-gradient(to right,${rgb1},${rgb2})`
+    document.body.style.backgroundImage = `linear-gradient(to right,${rgb1},${rgb2})`;
     copydiv.innerHTML=`linear-gradient(toright,${rgb1},${rgb2})`;
 };
 
@@ -31,6 +31,11 @@ const handleButton2 = ()=>{
 
 copydiv.addEventListener("click",()=>{
     navigator.clipboard.writeText(copydiv.innerText);
+        copydiv.innerText = "✅ Copied!";
+
+    setTimeout(() => {
+        copydiv.innerHTML = `background-image: linear-gradient(to right, ${rgb1}, ${rgb2});`;
+    }, 1200);
 })
 
 btn1.addEventListener("click",handleButton1);
