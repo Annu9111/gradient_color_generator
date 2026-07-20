@@ -10,7 +10,7 @@ A modern and interactive Gradient Color Generator built using **HTML**, **CSS**,
 
 ## 📸 Preview
 
-![Project Screenshot](./preview.png)
+![Project Screenshot](/screenshot.png)
 
 > Replace `preview.png` with a screenshot of your project.
 
